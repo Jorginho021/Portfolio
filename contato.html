@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contato | Portfólio Jorge Cardoso</title>
+  <link rel="stylesheet" href="estilos/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">Jorge Cardoso</a>
+      <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="main-nav" aria-label="Navegação principal">
+        <a href="index.html">Home</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="informacao.html">Formação</a>
+        <a href="conhecimentos.html">Conhecimentos</a><a href="meus-sites.html">Meus Sites</a>
+        <a href="hobbies.html">Hobbies</a>
+        <a href="contato.html" class="active">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container page-section">
+    <section class="contact-panel section-bg">
+      <h1>Contato</h1>
+      <p>Estou disponível para projetos, parcerias e oportunidades acadêmicas em TI.</p>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h2>Formulário</h2>
+          <form class="contact-form">
+            <label for="name">Nome</label>
+            <input id="name" name="name" type="text" placeholder="Seu nome" required />
+            <label for="email">E-mail</label>
+            <input id="email" name="email" type="email" placeholder="seu@email.com" required />
+            <label for="message">Mensagem</label>
+            <textarea id="message" name="message" rows="5" placeholder="Escreva sua mensagem" required></textarea>
+            <button class="button primary" type="submit">Enviar mensagem</button>
+          </form>
+        </div>
+        <div class="contact-card contact-info">
+          <h2>Meus contatos</h2>
+          <ul>
+            <li><strong>E-mail</strong>: <a href="mailto:jorginhocardosoj@gmail.com">jorginhocardosoj@gmail.com</a></li>
+            <li><strong>WhatsApp</strong>: <a href="https://wa.me/555197881983" target="_blank" rel="noreferrer">+55 51 9788-1983</a></li>
+            <li><strong>GitHub</strong>: <a href="https://github.com/Jorginho021" target="_blank" rel="noreferrer">github.com/Jorginho021</a></li>
+            <li><strong>LinkedIn</strong>: <a href="https://www.linkedin.com/in/jorge-cardoso-de-jesus-305494363/" target="_blank" rel="noreferrer">linkedin.com/in/jorge-cardoso-de-jesus-305494363</a></li>
+            <li><strong>Instagram</strong>: <a href="https://www.instagram.com/j.cardoso_021/" target="_blank" rel="noreferrer">@j.cardoso_021</a></li>
+          </ul>
+          <p>Use o formulário ou envie mensagem diretamente pelo e-mail ou WhatsApp.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="currentYear9"></span> Jorge Cardoso de Jesus — Portfólio de Tecnologia da Informação</p>
+      <div class="footer-links">
+        <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+  <script src="scripts/main.js"></script>
+</body>
+</html>
+
